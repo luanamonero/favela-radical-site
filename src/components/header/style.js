@@ -4,8 +4,8 @@ import styled from 'styled-components';
 export const Container = styled.header`
   text-align: center;
   overflow: hidden;
-
-  video {
+  
+  video {  
   position: absolute;
   top: 0;
   left: 0;
