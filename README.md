@@ -1,4 +1,4 @@
 ## EM CONSTRUÇÃO 🏗️
 
 <a></a>
-![Dia 02](https://user-images.githubusercontent.com/37448340/88348825-d5573380-cd24-11ea-832c-989e091167b8.gif)
+![Dia 02](https://miro.medium.com/max/1600/1*aB3SxuDxtSqaXcfJlbFO8g.gif)
