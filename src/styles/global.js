@@ -1,8 +1,10 @@
-import {createGlobalStyle} from 'styled-components'
+import {createGlobalStyle} from 'styled-components';
+import capa from "../assets/BACKGROUND_TOTAL.svg";
 
 export const GlobalStyle = createGlobalStyle`
   :root {
     --orange: #C26331;
+    --cover: ${capa};
   }
 
   * {
@@ -21,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: var(--background);
+    background: var(--cover);
     -webkit-font-smoothing: antialiased;
   }
 

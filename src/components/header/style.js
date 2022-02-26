@@ -15,6 +15,7 @@ export const Container = styled.header`
   object-position: center;
   object-fit: cover;
 }
+
 `
 export const Content = styled.div`
   max-width: 1120px;
@@ -33,7 +34,6 @@ export const ContainerLink = styled.div `
   justify-content: space-between;
   align-items: center;
   width: 40rem;
-  margin-right: -4rem;
 
   a {
     text-decoration: none;
@@ -54,6 +54,7 @@ export const ContainerLink = styled.div `
     justify-content: center;
     align-items: center;
     padding: 0.5rem 0.5rem;
+    margin-right: 1rem;
   }
 
 `
