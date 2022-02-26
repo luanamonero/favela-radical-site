@@ -5,17 +5,14 @@ export const Container = styled.section`
   width: 100%;
   height: 30rem;
   left: 0rem;
-  top: 15em;
+  top: 25em;
 
-  div {
-    // falta a matrix
+  img {
     position: absolute;
-    width: 35rem;
-    height: 30rem;
+    width: 42rem;
+    height: 50rem;
     left: 0;
-    top: 10.01rem;
-
-    background: #e43145;
+    top: -9.47rem;
   }
 
   h1 {
@@ -23,7 +20,6 @@ export const Container = styled.section`
     width: 25rem;
     height: 10rem;
     left: 5rem;
-    top: 10rem;
 
     font-family: Roboto;
     font-style: normal;
@@ -40,7 +36,7 @@ export const Container = styled.section`
     width: 35rem;
     height: 10rem;
     left: 40rem;
-    top: 11rem;
+    top: 2rem;
 
     font-family: Roboto;
     font-style: normal;
@@ -63,7 +59,7 @@ export const Container = styled.section`
 
     position: absolute;
     left: 65rem;
-    top: 35rem;
+    top: 25rem;
 
     border: 3px solid #000000;
     border-radius: 10px;
@@ -74,6 +70,7 @@ export const Container = styled.section`
     letter-spacing: 0.2em;
   }
 `;
+
 export const Letter = styled.span`
   position: absolute;
   width: 100%;

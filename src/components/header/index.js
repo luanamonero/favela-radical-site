@@ -1,13 +1,12 @@
 import logo from '../../assets/logo2.png';
 import { Link } from 'react-router-dom';
 import { Container, Content, ContainerLink } from './style';
-import video from '../../assets/video.mp4'
 
 export const Header = () => {
   return (
     <Container>
       <video width="750" height="500" controls >
-        <source autoPlay muted loop src={video} type="video/mp4"/>
+        <source muted src="" type="video/mp4"/>
       </video>
       <Content>
           <Link to="/home">

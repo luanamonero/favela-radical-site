@@ -1,10 +1,11 @@
 import { Container, Letter } from './style';
+import retangle from '../../assets/Rectangle4.svg'
 
 export const QuemSomos = () => {
   return (
     <>
       <Container>
-        <div></div>
+        <img src={retangle} alt="retangulo" />
         <h1>Lorem ipsum dolor sit amet</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet urna a velit porta tempor. Maecenas nisi magna, malesuada eget sapien ac, vestibulum gravida tortor. Proin iaculis sodales mauris, at sagittis nibh faucibus eget. Maecenas nulla lacus, porttitor vitae tincidunt eu, pellentesque varius lorem. Donec tincidunt in est sit amet tristique. 
