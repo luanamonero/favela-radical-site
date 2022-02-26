@@ -8,7 +8,7 @@ export const Container = styled.section`
 
   img {
     position: absolute;
-    width: 33rem;
+    width: 36rem;
     height: 30rem;
     top: 2rem;
 
