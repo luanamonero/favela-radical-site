@@ -25,6 +25,10 @@ export const Content = styled.div`
       left: 0;
       top: 2rem;
     }
+    &:last-child {
+      left:45rem;
+      top: 15rem;
+    }
   }
 `;
 

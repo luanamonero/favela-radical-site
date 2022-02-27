@@ -1,5 +1,6 @@
 import seta1 from "../../assets/ENFEITE SETA_01.svg";
 import retangle from "../../assets/Rectangle16.svg";
+import foto from "../../assets/doacoes.svg";
 import { Container, Content, Card } from "./style";
 
 export const Doacoes = () => {
@@ -26,6 +27,7 @@ export const Doacoes = () => {
               non sapien aliquet lobortis.
             </p>
           </Card>
+          <img src={foto} alt="retangulo" />
         </Content>
       </Container>
     </>
