@@ -27,8 +27,11 @@ export const Doacoes = () => {
               non sapien aliquet lobortis.
             </p>
           </Card>
-          <img src={foto} alt="retangulo" />
+          <img src={foto} alt="foto doacoes" />
         </Content>
+          <button type="button">
+            VER MAIS
+          </button>
       </Container>
     </>
   );

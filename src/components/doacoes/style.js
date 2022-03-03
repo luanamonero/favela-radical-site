@@ -6,6 +6,26 @@ export const Container = styled.section`
   height: 45rem;
   left: 0rem;
   top: 115rem;
+
+  button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 2rem;
+    color: black;
+
+    position: absolute;
+    left: 63rem;
+    top: 40rem;
+
+    border: 3px solid #000000;
+    border-radius: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+  }
 `;
 
 export const Content = styled.div`
@@ -20,14 +40,14 @@ export const Content = styled.div`
     left: 0rem;
 
     :nth-child(2) {
-      width: 60rem;
-      height: 60rem;
-      left: 0;
-      top: 2rem;
+      width: 50rem;
+      height: 39rem;
+      left: -2rem;
+      top: 6rem;
     }
     &:last-child {
-      left:45rem;
-      top: 15rem;
+      left:43rem;
+      top: 10rem;
     }
   }
 `;
@@ -39,14 +59,14 @@ export const Card = styled.section`
     position: absolute;
     width: 30rem;
     height: 10rem;
-    left: 5rem;
-    top: 12rem;
+    left: 3rem;
+    top: 8rem;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size:5rem;
-    line-height: 3rem;
+    line-height: 5rem;
     /* or 112% */
 
     letter-spacing: -0.015em;
@@ -54,19 +74,17 @@ export const Card = styled.section`
 
   p {
     position: absolute;
-    width: 35rem;
-    height: 25rem;
-    left: 5rem;
-    top: 22rem;
+    width: 30rem;
+    height: 20rem;
+    left: 3rem;
+    top: 20rem;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
-    line-height: 40px;
+    line-height: 25px;
     /* or 160% */
-
-    letter-spacing: -0.015em;
 
     color: #F2F2F2;
   }
