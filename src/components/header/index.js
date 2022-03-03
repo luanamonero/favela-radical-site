@@ -2,15 +2,13 @@ import logo from '../../assets/logo2.png';
 import { Link } from 'react-router-dom';
 import { Container, Content, ContainerLink } from './style';
 
-export const Header = () => {
+export const Header = ({ children }) => {
   return (
     <Container>
-      <video width="750" height="500" controls >
-        <source muted src="" type="video/mp4"/>
-      </video>
+      { children }
       <Content>
           <Link to="/home">
-            <img src={logo} alt="favela radical" />            
+          <img src={logo} alt="favela radical" />            
           </Link>
         <ContainerLink>
           <Link to="/home">

@@ -2,6 +2,8 @@ import seta1 from "../../assets/ENFEITE SETA_01.svg";
 import retangle from "../../assets/Rectangle16.svg";
 import foto from "../../assets/doacoes.svg";
 import { Container, Content, Card } from "./style";
+import { Link } from 'react-router-dom';
+
 
 export const Doacoes = () => {
   return (
@@ -29,9 +31,11 @@ export const Doacoes = () => {
           </Card>
           <img src={foto} alt="foto doacoes" />
         </Content>
-          <button type="button">
-            VER MAIS
-          </button>
+          <Link to="/doacoes">
+            <button type="button">
+              VER MAIS
+            </button>
+          </Link>
       </Container>
     </>
   );

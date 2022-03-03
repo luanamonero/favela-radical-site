@@ -1,15 +1,15 @@
 import React from 'react';
 import { Header } from '../../components/header/index';
 
-function Atividades() {
+function Doacoes() {
   return (
     <div>
       <Header>
-        FOTO DO HEADER
+        FOTO DO DOACOES
       </Header>
-      <h1>Atividades</h1>
+      <h1>Doacoes</h1>
     </div>
   );
 }
 
-export default Atividades;
+export default Doacoes;
