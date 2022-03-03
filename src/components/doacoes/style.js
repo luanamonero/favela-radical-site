@@ -15,7 +15,7 @@ export const Container = styled.section`
     color: black;
 
     position: absolute;
-    left: 63rem;
+    left: 65rem;
     top: 40rem;
 
     border: 3px solid #000000;
@@ -46,8 +46,9 @@ export const Content = styled.div`
       top: 6rem;
     }
     &:last-child {
-      left:43rem;
-      top: 10rem;
+      width: 35rem;
+      left:40rem;
+      top: 8rem;
     }
   }
 `;
