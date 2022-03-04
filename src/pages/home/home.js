@@ -1,4 +1,5 @@
 import React from 'react';
+import { Atividades } from '../../components/atividades';
 import { Diretrizes } from '../../components/diretrizes';
 import { Doacoes } from '../../components/doacoes';
 import { Header } from '../../components/header/index';
@@ -15,6 +16,7 @@ function Home() {
       <QuemSomos/>
       <Diretrizes/>
       <Doacoes/>
+      <Atividades/>
     </div>
   );
 }
