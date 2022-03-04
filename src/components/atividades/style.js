@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   position: absolute;
   width: 100%;
-  height: 45rem;
+  height: 60rem;
   left: 0rem;
   top: 180rem;
 
@@ -37,9 +37,17 @@ export const Container = styled.section`
     :nth-child(3) {
       position: absolute;
       width: 13rem;
-      height: 25rem;
+      height: 10rem;
       left: 0rem;
-      top: 4rem;
+      top: 11rem;
     }
   }
 `;
+
+export const Content = styled.section`
+  position: absolute;
+  border: 3px solid red;
+  top: 25rem;
+  width: 100%;
+  height: 20rem;
+`
