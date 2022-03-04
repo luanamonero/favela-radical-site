@@ -68,6 +68,11 @@ export const Container = styled.section`
     font-style: normal;
     font-weight: bold;
     letter-spacing: 0.2em;
+
+    &:hover {
+    background: #E43145;
+    color: #f2f2f2;
+    }
   }
 `;
 
