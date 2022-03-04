@@ -13,7 +13,7 @@ export const Doacoes = () => {
           <img src={seta1} alt="enfeite de seta" />
           <img src={retangle} alt="retangulo" />
           <Card>
-            <h1>Lorem ipsum dolor sit amet</h1>
+            <h1>Seja um Doador</h1>
             <p>
               Aliquam nec cursus urna. Nam bibendum dictum urna eget imperdiet.
               Fusce congue ligula massa, at lobortis sem porttitor ut. Quisque

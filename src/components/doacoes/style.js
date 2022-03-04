@@ -16,7 +16,7 @@ export const Container = styled.section`
 
     position: absolute;
     left: 65rem;
-    top: 40rem;
+    top: 51rem;
 
     border: 3px solid #000000;
     border-radius: 10px;
@@ -45,15 +45,15 @@ export const Content = styled.div`
     left: 0rem;
 
     :nth-child(2) {
-      width: 50rem;
-      height: 39rem;
+      width: 60rem;
+      height: 50rem;
       left: -2rem;
       top: 6rem;
     }
     &:last-child {
-      width: 35rem;
-      left:40rem;
-      top: 8rem;
+      width: 40rem;
+      left: 38rem;
+      top: 15rem;
     }
   }
 `;
@@ -71,8 +71,8 @@ export const Card = styled.section`
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size:5rem;
-    line-height: 5rem;
+    font-size:8rem;
+    line-height: 8rem;
     /* or 112% */
 
     letter-spacing: -0.015em;
@@ -83,13 +83,13 @@ export const Card = styled.section`
     width: 30rem;
     height: 20rem;
     left: 3rem;
-    top: 20rem;
+    top: 27rem;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
-    line-height: 25px;
+    line-height: 40px;
     /* or 160% */
 
     color: #F2F2F2;
