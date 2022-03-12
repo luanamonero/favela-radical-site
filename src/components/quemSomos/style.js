@@ -131,6 +131,14 @@ export const Container = styled.section`
 `;
 
 export const Letter = styled.span`
+  position: absolute;
+  top: 55rem;
+  right: 0rem;
+
+  img {
+    width: 40rem;
+  }
+
   @media (max-width: 1080px)  {
       position: absolute;
       top: 60rem;
