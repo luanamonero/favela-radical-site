@@ -1,5 +1,6 @@
 import { Container, Letter } from './style';
 import retangle from '../../assets/Rectangle4.svg'
+import letter from '../../assets/NOME.svg'
 import { Link } from 'react-router-dom';
 
 
@@ -20,8 +21,7 @@ export const QuemSomos = () => {
         </Link>
       </Container>
       <Letter>
-        <h1>FAVELA</h1>
-        <h2>RADICAL</h2>
+        <img src={letter} alt="retangulo" />
       </Letter>
     </>
 

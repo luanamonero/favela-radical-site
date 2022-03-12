@@ -1,27 +1,26 @@
-import styled from 'styled-components';
-
+import styled from "styled-components";
 
 export const Container = styled.header`
   text-align: center;
   overflow: hidden;
   padding: 0rem 1rem;
-  
-  video {  
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 25rem;
-  z-index: -2;
-  object-position: center;
-  object-fit: cover;
-}
 
-`
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25rem;
+    z-index: -2;
+    object-position: center;
+    object-fit: cover;
+  }
+`;
+
 export const Content = styled.div`
   max-width: 100%;
   margin: 0 auto;
-  
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,8 +28,9 @@ export const Content = styled.div`
   img {
     width: 5rem;
   }
-`
-export const ContainerLink = styled.div `
+`;
+
+export const ContainerLink = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,22 +44,29 @@ export const ContainerLink = styled.div `
     align-items: center;
     width: 7rem;
     height: 7rem;
-
   }
-  
+
   a:hover {
     width: 7rem;
     height: 7rem;
     top: 0px;
-    background: #E43145;
+    background: #e43145;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0.5rem 0.5rem;
     margin-right: 1rem;
   }
-`
-export const ContainerSocial = styled.div `
+
+  @media (max-width: 1080px) {
+    display: none;
+  }
+  @media (max-width: 720px) {
+    display: none;
+  }
+`;
+
+export const ContainerSocial = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,7 +76,7 @@ export const ContainerSocial = styled.div `
     width: 7rem;
     height: 7rem;
     top: 0px;
-    background: #E43145;
+    background: #e43145;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,4 +86,11 @@ export const ContainerSocial = styled.div `
   img {
     width: 2rem;
   }
-`
+
+  @media (max-width: 1080px) {
+    display: none;
+  }
+  @media (max-width: 720px) {
+    display: none;
+  }
+`;
