@@ -41,15 +41,16 @@ export const Container = styled.section`
 
   h1 {
     position: absolute;
-    width: 25rem;
-    height: 10rem;
-    left: 5rem;
+    width: 45%;
+    left: 3rem;
+    top: 4rem;
+    color: #f2f2f2;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 6rem;
-    line-height: 7rem;
+    font-size: 6.5rem;
+    line-height: 6rem;
     /* or 112% */
 
     letter-spacing: -0.015em;
@@ -58,7 +59,7 @@ export const Container = styled.section`
       font-size: 4rem;
       line-height: 5rem;
       letter-spacing: -0.015em;
-      width: 80%;
+      width: 90%;
       top: 1rem;
       color: #f2f2f2;
     }
@@ -66,11 +67,13 @@ export const Container = styled.section`
 
   p {
     position: absolute;
-
+    width: 46%;
+    top: 5rem;
+    right: 3%;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 40px;
     /* or 160% */
 
@@ -80,10 +83,11 @@ export const Container = styled.section`
 
     @media (max-width: 1080px) {
       color: #f2f2f2;
+      width:90%;
       font-family: Roboto;
       font-style: normal;
       font-weight: normal;
-      font-size: 1  rem;
+      font-size: 1rem;
       top: 12rem;
       line-height: 28px;
       padding: 1rem 1rem;
@@ -96,8 +100,10 @@ export const Container = styled.section`
     text-align: center;
     padding: 1rem 2rem;
     color: black;
-
+   
     position: absolute;
+    left: 65rem;
+    top: 25rem;
 
     border: 3px solid #000000;
     border-radius: 10px;
@@ -112,10 +118,11 @@ export const Container = styled.section`
       color: #f2f2f2;
     }
 
-    @media (max-width: 1080px)  {
-      top:32rem;
+    @media (max-width: 1080px) {
+      position: absolute;
+      top:30rem;
       padding: 0.5rem 1rem;
-      right: 1rem;
+      left: 25rem;
       border: 2px solid #f2f2f2;
       border-radius: 10px;
       color: #f2f2f2;
@@ -143,5 +150,9 @@ export const Letter = styled.span`
       position: absolute;
       top: 60rem;
       right: 0rem;
+
+    img {
+      width: 20rem;
     }
+  }
 `;

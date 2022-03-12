@@ -23,8 +23,6 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
-    display: flex;
-    flex-direction: column;
   }
 
   body, textarea, input, button {
