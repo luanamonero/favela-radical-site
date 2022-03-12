@@ -8,14 +8,12 @@ export const Container = styled.section`
   top: 25em;
   display: flex;
 
-  @media (max-width: 1080px) {
+  @media (max-width: 720px) {
     display: flex;
-    flex-direction: column;
   }
 
   @media (max-width: 720px) {
     display: flex;
-    flex-direction: column;
   }
 
   img {
@@ -25,16 +23,16 @@ export const Container = styled.section`
     left: 0;
     top: -9.47rem;
 
-    @media (max-width: 1080px) {
+    @media (max-width: 720px) {
       background: #e43145;
       width: 100%;
-      height: 35rem;
+      height: 40rem;
       top: 0rem;
     }
     @media (max-width: 720px) {
       background: #e43145;
       width: 100%;
-      height: 35rem;
+      height: 40rem;
       top: 0rem;
     }
   }
@@ -55,7 +53,8 @@ export const Container = styled.section`
 
     letter-spacing: -0.015em;
 
-    @media (max-width: 1080px) {
+    @media (max-width: 720px) {
+      align-items: center;
       font-size: 4rem;
       line-height: 5rem;
       letter-spacing: -0.015em;
@@ -81,9 +80,9 @@ export const Container = styled.section`
 
     color: #000000;
 
-    @media (max-width: 1080px) {
+    @media (max-width: 720px) {
       color: #f2f2f2;
-      width:90%;
+      width:100%;
       font-family: Roboto;
       font-style: normal;
       font-weight: normal;
@@ -91,6 +90,7 @@ export const Container = styled.section`
       top: 12rem;
       line-height: 28px;
       padding: 1rem 1rem;
+      right: auto;
     }
   }
 
@@ -102,7 +102,7 @@ export const Container = styled.section`
     color: black;
    
     position: absolute;
-    left: 65rem;
+    right: 3%;
     top: 25rem;
 
     border: 3px solid #000000;
@@ -118,7 +118,7 @@ export const Container = styled.section`
       color: #f2f2f2;
     }
 
-    @media (max-width: 1080px) {
+    @media (max-width: 720px) {
       position: absolute;
       top:30rem;
       padding: 0.5rem 1rem;
@@ -146,9 +146,9 @@ export const Letter = styled.span`
     width: 40rem;
   }
 
-  @media (max-width: 1080px)  {
+  @media (max-width: 720px)  {
       position: absolute;
-      top: 60rem;
+      top: 65rem;
       right: 0rem;
 
     img {

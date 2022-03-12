@@ -11,7 +11,7 @@ export const Container = styled.section`
     width: 36rem;
     height: 30rem;
     top: 2rem;
-
+z
     :nth-child(1) {
       position: absolute;
       width: 30rem;

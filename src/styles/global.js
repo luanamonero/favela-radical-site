@@ -23,6 +23,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
+    max-width: 640px
   }
 
   body, textarea, input, button {

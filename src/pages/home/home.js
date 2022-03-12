@@ -14,9 +14,9 @@ function Home() {
         </video>
       </Header>
       <QuemSomos/>
-      <Diretrizes/>
+      {/* <Diretrizes/>
       <Doacoes/>
-      <Atividades/>
+      <Atividades/> */}
     </div>
   );
 }
