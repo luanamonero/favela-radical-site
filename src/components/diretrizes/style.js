@@ -30,9 +30,9 @@ export const Container = styled.section`
 
     :nth-child(1) {
       position: absolute;
-      width: 30rem;
-      top: -18rem;
-      left: -4rem;
+      width: 50%;
+      top: -60%;
+      left: -4%;
 
       @media (max-width: 1080px) {
         width: 30rem;
