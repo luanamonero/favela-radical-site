@@ -4,6 +4,7 @@ export const Container = styled.header`
   text-align: center;
   overflow: hidden;
   padding: 0rem 1rem;
+  width: 100%;
 
   video {
     position: absolute;
@@ -34,7 +35,9 @@ export const ContainerLink = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50rem;
+  width: 70%;
+  position: absolute;
+  right: 1%;
 
   a {
     text-decoration: none;

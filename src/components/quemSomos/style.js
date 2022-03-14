@@ -8,14 +8,6 @@ export const Container = styled.section`
   top: 25em;
   display: flex;
 
-  @media (max-width: 720px) {
-    display: flex;
-  }
-
-  @media (max-width: 720px) {
-    display: flex;
-  }
-
   img {
     position: absolute;
     width: 42rem;
@@ -23,7 +15,7 @@ export const Container = styled.section`
     left: 0;
     top: -9.47rem;
 
-    @media (max-width: 720px) {
+    @media (max-width: 1080px) {
       background: #e43145;
       width: 100%;
       height: 40rem;
@@ -52,6 +44,16 @@ export const Container = styled.section`
     /* or 112% */
 
     letter-spacing: -0.015em;
+
+    @media (max-width: 1080px) {
+      align-items: center;
+      font-size: 4rem;
+      line-height: 5rem;
+      letter-spacing: -0.015em;
+      width: 90%;
+      top: 1rem;
+      color: #f2f2f2;
+    }
 
     @media (max-width: 720px) {
       align-items: center;
@@ -92,6 +94,19 @@ export const Container = styled.section`
       padding: 1rem 1rem;
       right: auto;
     }
+
+    @media (max-width: 1080px) {
+      color: #f2f2f2;
+      width:100%;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      top: 12rem;
+      line-height: 28px;
+      padding: 1rem 1rem;
+      right: auto;
+    }
   }
 
   button {
@@ -118,15 +133,32 @@ export const Container = styled.section`
       color: #f2f2f2;
     }
 
-    @media (max-width: 720px) {
+    @media (max-width: 1080px) {
       position: absolute;
-      top:30rem;
+      top:35rem;
       padding: 0.5rem 1rem;
-      left: 25rem;
       border: 2px solid #f2f2f2;
       border-radius: 10px;
       color: #f2f2f2;
       background: #e43145;
+      right: 5%;
+
+      &:hover {
+      background: #f2f2f2;
+      color: black;
+      border: 2px solid black;
+      }
+    }
+
+    @media (max-width: 720px) {
+      position: absolute;
+      top: 35rem;
+      padding: 0.5rem 1rem;
+      border: 2px solid #f2f2f2;
+      border-radius: 10px;
+      color: #f2f2f2;
+      background: #e43145;
+      right: 15%;
 
       &:hover {
       background: #f2f2f2;
@@ -144,6 +176,16 @@ export const Letter = styled.span`
 
   img {
     width: 40rem;
+  }
+
+  @media (max-width: 1080px)  {
+      position: absolute;
+      top: 65rem;
+      right: 0rem;
+
+    img {
+      width: 30rem;
+    }
   }
 
   @media (max-width: 720px)  {
