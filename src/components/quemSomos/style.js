@@ -141,7 +141,7 @@ export const Container = styled.section`
       border-radius: 10px;
       color: #f2f2f2;
       background: #e43145;
-      right: 5%;
+      right: 3%;
 
       &:hover {
       background: #f2f2f2;
@@ -158,7 +158,7 @@ export const Container = styled.section`
       border-radius: 10px;
       color: #f2f2f2;
       background: #e43145;
-      right: 15%;
+      right: 3%;
 
       &:hover {
       background: #f2f2f2;
