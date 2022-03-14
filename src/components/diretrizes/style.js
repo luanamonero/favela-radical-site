@@ -90,13 +90,14 @@ export const Card = styled.div`
 
   @media (max-width: 1080px) {
     width: 100%;
-    margin-top: 2rem;
     height: 15rem;
+    top: 0;
   }
 
   @media (max-width: 720px) {
     width: 100%;
     height: 15rem;
+    top: 0;
   }
 
   h4 {
@@ -128,12 +129,14 @@ export const Card2 = styled.div`
 
   @media (max-width: 1080px) {
     width: 100%;
-    margin-top: 2rem;
+    height: 15rem;
+    top: 0;
   }
 
   @media (max-width: 720px) {
     width: 100%;
-    margin-top: 2rem;
+    height: 15rem;
+    top: 0;
   }
 
   h4 {
