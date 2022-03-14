@@ -13,9 +13,17 @@ export const Container = styled.section`
     top: 2rem;
     left: 0;
 
+    @media (max-width: 1080px) {
+      width: 45%;
+      height: 30rem;
+      left: 2rem;
+      top: 5rem;
+    }
+
     @media (max-width: 720px) {
       width: 100%;
       height: 30rem;
+      left: 0;
       padding: 1rem;
     }
 
@@ -27,7 +35,7 @@ export const Container = styled.section`
 
       @media (max-width: 1080px) {
         width: 30rem;
-        top: -20rem;
+        top: -18rem;
       }
 
       @media (max-width: 720px) {
@@ -38,20 +46,36 @@ export const Container = styled.section`
   }
 `;
 
-export const ContainerCard = styled.div `
+export const ContainerCard = styled.div`
   position: absolute;
-  display: inline-block;
+  right: 1%;
+  top: 10%;
+  width: 50%;
   height: 30rem;
-  right: 0;
   padding: 1rem;
-  width: 100%;
+
+  @media (max-width: 1080px) {
+    right: 0rem;
+    top: 6rem;
+  }
 
   @media (max-width: 720px) {
+    position: absolute;
+    display: inline-block;
     width: 100%;
     top: 32rem;
   }
 
-`
+  img {
+    width: 20rem;
+    height: 15rem;
+
+    @media (max-width: 720px) {
+      width: 15rem;
+      right: 0;
+    }
+  }
+`;
 
 export const Card = styled.div`
   width: 38rem;
@@ -59,10 +83,14 @@ export const Card = styled.div`
   left: 40rem;
   padding: 1rem 1rem;
 
-
   border: 5px solid #eb0000;
   box-sizing: border-box;
   border-radius: 20px;
+
+  @media (max-width: 1080px) {
+    width: 100%;
+    margin-top: 2rem;
+  }
 
   @media (max-width: 720px) {
     width: 100%;
@@ -75,8 +103,12 @@ export const Card = styled.div`
   p {
     margin-top: 0.5rem;
 
+    @media (max-width: 1080px) {
+      font-size: 0.8rem;
+    }
+
     @media (max-width: 720px) {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
     }
   }
 `;
@@ -85,14 +117,20 @@ export const Card2 = styled.div`
   width: 38rem;
   height: 10rem;
   padding: 1rem 1rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
 
   border: 5px solid #eb0000;
   box-sizing: border-box;
   border-radius: 20px;
 
+  @media (max-width: 1080px) {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
   @media (max-width: 720px) {
     width: 100%;
+    margin-top: 2rem;
   }
 
   h4 {
@@ -102,13 +140,12 @@ export const Card2 = styled.div`
   p {
     margin-top: 0.5rem;
 
+    @media (max-width: 1080px) {
+      font-size: 0.8rem;
+    }
+
     @media (max-width: 720px) {
       font-size: 0.9rem;
     }
-  }
-
-  img {
-    width: 20rem;
-    right: -2.1rem;
   }
 `;
