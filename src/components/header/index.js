@@ -11,8 +11,9 @@ export const Header = ({ children }) => {
       { children }
       <Content>
           <Link to="/home">
-          <img src={logo} alt="favela radical" />            
+          <img src={logo} alt="favela radical" />        
           </Link>
+          <button>MENU AQUI!</button>
         <ContainerLink>
           <Link to="/home">
             <h4>Home</h4>

@@ -16,6 +16,21 @@ export const Container = styled.header`
     object-position: center;
     object-fit: cover;
   }
+
+  @media (max-width: 720px) {
+    background: black;
+  }
+
+  button {
+    display: none;
+
+    @media (max-width: 720px) {
+      right: 0;
+      display: flex;
+      right: 0;
+    }
+  }
+
 `;
 
 export const Content = styled.div`
