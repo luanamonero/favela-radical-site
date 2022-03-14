@@ -47,13 +47,13 @@ export const Container = styled.section`
 
     @media (max-width: 1080px) {
       align-items: center;
-      font-size: 4rem;
+      font-size: 6rem;
       line-height: 5rem;
       letter-spacing: -0.015em;
       width: 90%;
       top: 1rem;
       color: #f2f2f2;
-      left: 2%;
+      margin: auto;
     }
 
     @media (max-width: 720px) {
@@ -64,7 +64,7 @@ export const Container = styled.section`
       width: 90%;
       top: 1rem;
       color: #f2f2f2;
-      left: 2%;
+      margin: auto;
     }
   }
 
@@ -84,6 +84,19 @@ export const Container = styled.section`
 
     color: #000000;
 
+    @media (max-width: 1080px) {
+      color: #f2f2f2;
+      width:100%;
+      font-family: Roboto;  
+      font-style: normal;
+      font-weight: normal;
+      font-size: 2rem;
+      top: 12rem; 
+      line-height: 30px;
+      padding: 1rem 1rem;
+      right: auto;
+    }
+
     @media (max-width: 720px) {
       color: #f2f2f2;
       width:100%;
@@ -97,18 +110,6 @@ export const Container = styled.section`
       right: auto;
     }
 
-    @media (max-width: 1080px) {
-      color: #f2f2f2;
-      width:100%;
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 1rem;
-      top: 12rem;
-      line-height: 28px;
-      padding: 1rem 1rem;
-      right: auto;
-    }
   }
 
   button {
