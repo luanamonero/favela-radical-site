@@ -23,7 +23,7 @@ export const Container = styled.section`
     @media (max-width: 720px) {
       top: 0;
       width: 100%;
-      height: 30rem;
+      height: 33rem;
       left: 0;
       padding: 1rem;
     }
@@ -50,7 +50,7 @@ export const Container = styled.section`
 export const ContainerCard = styled.div`
   position: absolute;
   right: 1%;
-  top: 5%;
+  top: 10%;
   width: 50%;
   height: 30rem;
   padding: 1rem;
