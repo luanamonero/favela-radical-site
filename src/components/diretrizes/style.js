@@ -50,7 +50,7 @@ export const Container = styled.section`
 export const ContainerCard = styled.div`
   position: absolute;
   right: 1%;
-  top: 10%;
+  top: 5%;
   width: 50%;
   height: 30rem;
   padding: 1rem;
@@ -64,7 +64,7 @@ export const ContainerCard = styled.div`
     position: absolute;
     display: inline-block;
     width: 100%;
-    top: 32rem;
+    top: 30rem;
   }
 
   img {
@@ -121,7 +121,7 @@ export const Card2 = styled.div`
   width: 38rem;
   height: 10rem;
   padding: 1rem 1rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 
   border: 5px solid #eb0000;
   box-sizing: border-box;
