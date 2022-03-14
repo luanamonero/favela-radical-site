@@ -53,8 +53,7 @@ export const Container = styled.section`
       width: 90%;
       top: 1rem;
       color: #f2f2f2;
-      right: auto;
-      left: auto;
+      left: 2%;
     }
 
     @media (max-width: 720px) {
@@ -65,8 +64,7 @@ export const Container = styled.section`
       width: 90%;
       top: 1rem;
       color: #f2f2f2;
-      right: auto;
-      left: auto;
+      left: 2%;
     }
   }
 
