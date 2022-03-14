@@ -21,6 +21,7 @@ export const Container = styled.section`
     }
 
     @media (max-width: 720px) {
+      top: 0;
       width: 100%;
       height: 30rem;
       left: 0;
@@ -90,10 +91,12 @@ export const Card = styled.div`
   @media (max-width: 1080px) {
     width: 100%;
     margin-top: 2rem;
+    height: 15rem;
   }
 
   @media (max-width: 720px) {
     width: 100%;
+    height: 15rem;
   }
 
   h4 {
