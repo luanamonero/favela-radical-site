@@ -8,7 +8,7 @@ export const Container = styled.section`
 
   img {
     position: absolute;
-    width: 36rem;
+    width: 50%;
     height: 30rem;
     top: 2rem;
     left: 0;
@@ -112,7 +112,7 @@ export const Card = styled.div`
     }
 
     @media (max-width: 720px) {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
     }
   }
 `;
