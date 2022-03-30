@@ -12,6 +12,7 @@ import {
   AiFillDollarCircle,
 } from "react-icons/ai";
 import logo from '../assets/logo2.png';
+import surf from '../assets/surf.svg';
 
 
 function NavBar() {
@@ -38,7 +39,7 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto navLink" defaultActiveKey="#home">
+          <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
@@ -75,14 +76,14 @@ function NavBar() {
                 Doações
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link as={Link} to="/project"  onClick={() => updateExpanded(false)}>
-                <AiFillPhone
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Contato
-              </Nav.Link>
-            </Nav.Item>
+              <Nav.Item>
+                <Nav.Link as={Link} to="/project"  onClick={() => updateExpanded(false)}>
+                  <AiFillPhone
+                    style={{ marginBottom: "2px" }}
+                  />{" "}
+                  Contato
+                </Nav.Link>
+              </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

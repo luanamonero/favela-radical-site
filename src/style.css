@@ -39,9 +39,7 @@ body {
 /* --------- */
 
 .sticky {
-  background:black;
-
-
+  background:#181a27;
 }
 
 .navLink {
@@ -177,4 +175,20 @@ body {
 
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
+}
+
+.coverImg {
+  height: 700px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .coverImg {
+    position: relative;
+    height: 450px;
+    width: 100%;
+    opacity: 0.8;
+    top: 60px;
+  }
 }
