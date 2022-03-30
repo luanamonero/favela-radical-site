@@ -41,7 +41,7 @@ export const Container = styled.section`
 
       @media (max-width: 720px) {
         width: 17rem;
-        top: -22rem;
+        top: -21rem;
       }
     }
   }

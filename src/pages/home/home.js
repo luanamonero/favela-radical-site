@@ -16,8 +16,8 @@ function Home() {
       </Header>
       <QuemSomos/>
       <Diretrizes/>
-     {/*  <Doacoes/>
-      <Atividades/>  */}
+      <Doacoes/>
+      {/* <Atividades/> */}
     </div>
   );
 }
