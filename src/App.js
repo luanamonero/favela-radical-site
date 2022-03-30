@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import Switchs from './components/switch/switch';
+import Switchs from './components/Switch';
+import "./style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 function App() {
   return (

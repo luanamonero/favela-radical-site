@@ -1,0 +1,176 @@
+html {
+  --section-background-color: linear-gradient(to bottom left, #000000, #000000);
+
+  --image-gradient: linear-gradient(to bottom left, #000000, #000000);
+
+  --imp-text-color: #c96731;
+}
+
+.purple {
+  color: #c96731 !important;
+}
+
+
+/* https://pt.stackoverflow.com/questions/68928/como-estilizar-a-barra-de-rolagem */
+/* Scroll*/
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #001412;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c96731;
+  border-radius: 12px;
+}
+
+
+/* --------- */
+/* Navbar Section  */
+/* --------- */
+
+.sticky {
+  background:black;
+
+
+}
+
+.navLink {
+  margin-left: 47%;
+}
+
+.navbar {
+  position: fixed !important;
+  transition: all 0.3s ease-out 0s !important;
+  padding: 0.3rem 2rem !important;
+  font-size: 1.2rem !important;
+}
+
+.navbar-toggler {
+  position: relative !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.navbar-toggler span {
+  display: block !important;
+  background-color: #c96731 !important;
+  height: 4px !important;
+  width: 27px !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  transform: rotate(0deg) !important;
+  left: 0 !important;
+  opacity: 1 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: 0 !important;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+  transition: transform 0.35s ease-in-out !important;
+  transition: transform 0.35s ease-in-out !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  position: absolute !important;
+  left: 12px !important;
+  top: 10px !important;
+  transform: rotate(135deg) !important;
+  opacity: 0.9 !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  height: 12px !important;
+  visibility: hidden !important;
+  background-color: transparent !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  position: absolute !important;
+  left: 12px !important;
+  top: 10px !important;
+  transform: rotate(-135deg) !important;
+  opacity: 0.9 !important;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 1rem 2rem !important;
+    font-size: 1.4rem !important;
+    background-color: #181a27 !important;
+  }
+  .navbar-nav .nav-item a::after {
+    display: none !important;
+  }
+
+  .navLink {
+    margin-left: 0;
+  }
+}
+
+.navbar-brand {
+  color: rgb(250, 250, 250) !important;
+}
+
+.logo {
+  height: 4em !important;
+  width: 4em !important;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(250, 250, 250)  !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.nav-link {
+  padding: 0.8rem 1rem !important;
+}
+
+@media (max-width: 767px) {
+  .nav-link {
+    padding: 0.7rem 1rem !important;
+  }
+  .nav-link:hover {
+    background-color: black ;
+  }
+}
+
+.navbar-nav .nav-item {
+  position: relative;
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-item a {
+  font-weight: 400;
+  transition: all 0.3s ease-out 0s;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-nav .nav-item a::after {
+  content: "";
+  position: relative;
+  display: block;
+  height: 5px;
+  width: 0;
+  border-radius: 16px;
+  background: #c96731;
+  bottom: 1px;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s ease-out 0s;
+}
+
+.navbar-nav .nav-item a:hover::after {
+  width: 100%;
+}
