@@ -9,15 +9,7 @@ import surf from '../../assets/video.mp4';
 function Home() {
   return (
     <div>
-      <Header>
-        <video width="750" height="500" controls autoPlay loop muted>
-          <source src={surf} type='video/mp4' />
-        </video>
-      </Header>
-      <QuemSomos/>
-      <Diretrizes/>
-     {/*  <Doacoes/>
-      <Atividades/>  */}
+     <p>Home</p>
     </div>
   );
 }
