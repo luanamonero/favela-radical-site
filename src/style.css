@@ -6,6 +6,10 @@ html {
   --imp-text-color: #c96731;
 }
 
+body {
+  background-image: url('./assets/BACKGROUND.svg');
+}
+
 .purple {
   color: #c96731 !important;
 }
