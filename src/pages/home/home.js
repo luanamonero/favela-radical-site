@@ -1,6 +1,8 @@
 import React from 'react';
 import CarouselHeader from '../../components/Carrousel';
 import Header from '../../components/Header';
+import QuemSomos from '../../components/home/quemSomos';
+
 
 function Home() {
   return (
@@ -8,6 +10,7 @@ function Home() {
       <Header>
         <CarouselHeader/>
       </Header>
+      <QuemSomos/>
     </div>
   );
 }
