@@ -5,7 +5,7 @@ const QuemSomos = () => {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Container className="home-content">
+        <Container fluid className="home-content">
           <Row  className="heading">
             <Col md={7} className="home-header">
               <h1>Lorem ipsum dolor sit amet</h1>

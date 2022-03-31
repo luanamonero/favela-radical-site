@@ -263,6 +263,45 @@ html {
   letter-spacing: -0.015em
 }
 
+@media (max-width: 1080px) {
+  #home {
+    background: #c96731 ;
+    width: 100%;
+    padding: auto;
+    height: 420px;
+  }
+
+  .heading h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.015em;
+  }
+
+  .heading p{
+    width: 450px;
+    height: 250px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 15px;
+    letter-spacing: -0.01em;
+    color: white;
+  }
+
+  .heading button {
+    position: absolute !important;
+    margin-top: 33% !important;
+    width: 150px !important;
+    margin-left: 20%;
+  }
+}
+
+
 @media (max-width: 767px) {
   #home {
     background: #c96731 ;
@@ -300,3 +339,4 @@ html {
     margin-left: 30%;
   }
 }
+
