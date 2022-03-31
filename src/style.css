@@ -222,16 +222,20 @@ html {
 
 #home {
   width: 100%;
-  height: 600px;
-  background: 
-  -webkit-linear-gradient(rgb(201, 103, 49), rgba(135, 60, 255, 0.0) 0%),
- -webkit-linear-gradient(-20deg, rgb(201, 103, 49) 45%, rgb(255, 255, 255) 0%);
-
+  height: 700px;
+  background-color: #c96731;
 }
 
 .heading {
   padding-top: 30px;
   width: 100%;
+} 
+
+.heading button{
+  position: absolute !important;
+  margin-top: 46% !important;
+  width: 150px !important;
+  margin-left: 20%;
 } 
 
 .heading h1{
@@ -245,6 +249,7 @@ html {
 }
 
 .heading p{
+  margin-top: 20px;
   width: 500px;
   height: 400px;
   font-family: 'Roboto';
@@ -252,7 +257,46 @@ html {
   font-weight: 400;
   font-size: 25px;
   line-height: 40px;
+  color:rgb(250, 250, 250);
   /* or 160% */
 
   letter-spacing: -0.015em
+}
+
+@media (max-width: 767px) {
+  #home {
+    background: #c96731 ;
+    width: 100%;
+    padding: auto;
+    height: 500px;
+  }
+
+  .heading h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    letter-spacing: -0.015em;
+  }
+
+  .heading p{
+    width: 450px;
+    height: 250px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 55px;
+    letter-spacing: -0.01em;
+    color: white;
+  }
+
+  .heading button {
+    position: absolute !important;
+    margin-top: 60% !important;
+    width: 150px !important;
+    margin-left: 30%;
+  }
 }
