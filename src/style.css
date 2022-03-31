@@ -328,9 +328,9 @@ html {
 
   .heading button {
     position: absolute !important;
-    margin-top: 400px !important;
+    margin-top: 380px !important;
     width: 150px !important;
-    margin-left: 30%;
+    margin-left: 25%;
   }
 }
 
