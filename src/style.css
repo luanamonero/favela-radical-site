@@ -293,12 +293,6 @@ html {
     color: white;
   }
 
-  .heading button {
-    position: absolute !important;
-    margin-top: 33% !important;
-    width: 150px !important;
-    margin-left: 20%;
-  }
 }
 
 
@@ -334,7 +328,7 @@ html {
 
   .heading button {
     position: absolute !important;
-    margin-top: 80% !important;
+    margin-top: 400px !important;
     width: 150px !important;
     margin-left: 30%;
   }
