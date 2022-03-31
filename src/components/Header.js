@@ -1,12 +1,11 @@
 import React from 'react';
 import NavBar from './navBar';
-import cover from '../assets/cover.jpg'
 
-function Header() {
+function Header({children}) {
   return (
     <div>
       <NavBar/>
-      <img src={cover}  class="bg-image coverImg" alt="imagem de fundo"/>
+      {children}
     </div>
   );
 }

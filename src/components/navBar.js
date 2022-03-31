@@ -12,7 +12,6 @@ import {
   AiFillDollarCircle,
 } from "react-icons/ai";
 import logo from '../assets/logo2.png';
-import surf from '../assets/surf.svg';
 
 
 function NavBar() {
