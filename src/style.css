@@ -307,7 +307,7 @@ html {
     background: #c96731 ;
     width: 100%;
     padding: auto;
-    height: 500px;
+    height: 600px;
   }
 
   .heading h1 {
@@ -334,7 +334,7 @@ html {
 
   .heading button {
     position: absolute !important;
-    margin-top: 60% !important;
+    margin-top: 70% !important;
     width: 150px !important;
     margin-left: 30%;
   }
