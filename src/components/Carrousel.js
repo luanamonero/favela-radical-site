@@ -11,7 +11,6 @@ const CarouselHeader = () => {
         <img src={cover} className="d-block w-100" alt="primeiro slide" />
         <Carousel.Caption>
           <h3>Skate</h3>
-          <p>Oficina de skate realizada no morro do Turano</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -19,7 +18,6 @@ const CarouselHeader = () => {
 
         <Carousel.Caption>
           <h3>Surf</h3>
-          <p>Aulas de surf e muita energia boa!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -27,9 +25,6 @@ const CarouselHeader = () => {
 
         <Carousel.Caption>
           <h3>Robótica</h3>
-          <p>
-            Nossa aula de robótica transformando a rotina e a vida das nossas crianças.
-          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -37,9 +32,6 @@ const CarouselHeader = () => {
 
         <Carousel.Caption>
           <h3>Escalada</h3>
-          <p>
-            O primeiro muro público de escalada da cidade do Rio de Janeiro.
-          </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

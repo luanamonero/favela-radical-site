@@ -3,11 +3,7 @@ html {
 
   --image-gradient: linear-gradient(to bottom left, #000000, #000000);
 
-  --imp-text-color: #c96731;
-}
-
-.purple {
-  color: #c96731 !important;
+  --imp-text-color: #db5e1a;
 }
 
 .container {
@@ -29,7 +25,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #c96731;
+  background: #db5e1a;
   border-radius: 12px;
 }
 
@@ -61,7 +57,7 @@ html {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #c96731 !important;
+  background-color: #db5e1a !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -133,7 +129,7 @@ html {
     padding: 0.7rem 1rem !important;
   }
   .nav-link:hover {
-    background-color: #c96731 ;
+    background-color: #db5e1a ;
   }
 }
 
@@ -156,7 +152,7 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c96731;
+  background: #db5e1a;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -189,7 +185,7 @@ html {
   font-size: 4rem;
   font-weight: 2rem;
   text-decoration: underline;
-  text-decoration-color: #c96731;
+  text-decoration-color: #db5e1a;
 }
 
 .carousel-item p {
@@ -228,7 +224,7 @@ html {
 #home {
   width: 100%;
   height: 700px;
-  background-color: #c96731;
+  background-color: #db5e1a;
 }
 
 .heading {
@@ -270,7 +266,7 @@ html {
 
 @media (max-width: 1080px) {
   #home {
-    background: #c96731 ;
+    background: #db5e1a ;
     width: 100%;
     padding: auto;
     height: 420px;
@@ -303,7 +299,7 @@ html {
 
 @media (max-width: 767px) {
   #home {
-    background: #c96731 ;
+    background: #db5e1a ;
     width: 100%;
     padding: auto;
     height: 600px;
@@ -437,7 +433,8 @@ html {
 
 .container-doacoes {
   width: 100% !important;
-  background-color: #c96731 !important;
+  background-color: #db5e1a !important;
+  color: #E5E5E5;
 }
 
 
