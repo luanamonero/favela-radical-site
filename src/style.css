@@ -334,3 +334,31 @@ html {
   }
 }
 
+
+/* Letter */
+
+.letter {
+  width: 100% !important;
+  margin-top: 20px !important;
+}
+
+.letterImg {
+  position: absolute;
+  width: 40%;
+  margin-top: 10%;
+  left: 0;
+}
+
+.letter h1{
+  color: #E5E5E5;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10vw;
+  line-height: 12vw;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  letter-spacing: 0.1em;
+}
