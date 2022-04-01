@@ -489,7 +489,7 @@ html {
 
 @media (max-width: 767px) {
   .imgSeta{
-    margin-top: 40%;
+    margin-top: 45%;
   }
 
   .imgSeta2{
@@ -523,4 +523,26 @@ html {
   margin-top: 10%;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+@media (max-width: 767px) {
+
+  .imgSeta3{
+    margin-top: 1%;
+  }
+
+  .imgSeta4{
+    margin-top: 0;
+    width: 20%;
+    height: 20%;
+    left: 0;
+  }
+
+  .title-atividades {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    margin-top: 10%;
+  }
 }
