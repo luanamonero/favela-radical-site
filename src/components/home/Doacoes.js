@@ -7,8 +7,8 @@ const Doacoes = () => {
   return (
     <section className="container-doacoes">
       <Container>
-        <Row>
-          <Col className="col-doador">
+        <Row className="col-doador">
+          <Col>
             <h1>Lorem Item dolor</h1>
             <p>
               Aliquam nec cursus urna. Nam bibendum dictum urna eget imperdiet.
