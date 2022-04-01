@@ -7,7 +7,8 @@ import Letter from '../../components/home/Letter';
 import QuemSomos from '../../components/home/QuemSomos';
 import seta1 from "../../assets/ENFEITESETA_01.svg";
 import seta2 from "../../assets/ENFEITESETA_02.svg";
-
+import seta3 from "../../assets/ENFEITESETA.svg";
+import seta4 from "../../assets/SETA3.svg";
 
 function Home() {
   return (
@@ -23,6 +24,11 @@ function Home() {
         <img src={seta1} className="imgSeta2" alt="enfeita seta pequena"/>  
       </div>
       <Doacoes/>
+      <section>
+        <img src={seta3} className="imgSeta3" alt="enfeita seta grande"/>
+        <h1 className="title-atividades">Atividades</h1>
+        <img src={seta4} className="imgSeta4" alt="enfeita seta pequena"/>  
+      </section>
     </div>
   );
 }

@@ -46,13 +46,13 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/about"  onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/sobre"  onClick={() => updateExpanded(false)}>
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> Sobre Nós
               </Nav.Link>
             </Nav.Item>
             
             <Nav.Item>
-              <Nav.Link as={Link} to="/project"  onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/atividades"  onClick={() => updateExpanded(false)}>
                 <AiFillDribbbleCircle
                   style={{ marginBottom: "2px" }}
                 />{" "}
