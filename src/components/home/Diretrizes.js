@@ -3,14 +3,14 @@ import surf from "../../assets/surf.jpg";
 
 const Diretrizes = () => {
   return (
-    <Container>
+    <Container className="ctd">
       <Row>
         <Col>
-          <img className="imgDiretrizes" src={surf} alt="aula de surf" />
+          <img className="img-diretrizes" src={surf} alt="aula de surf" />
         </Col>
         <Col className="card-container">
           <Card
-           border="danger" style={{ width: '25rem' }}
+           border="dark" style={{ width: '25rem' }}
           >
             <Card.Body>
               <Card.Title>Lorem ipsum dolor sit amet</Card.Title>
@@ -21,7 +21,7 @@ const Diretrizes = () => {
             </Card.Body>
           </Card>
           <Card
-           border="danger" style={{ width: '25rem' }}
+           border="dark" style={{ width: '25rem' }}
           >
             <Card.Body>
               <Card.Title>Lorem ipsum dolor sit amet</Card.Title>
