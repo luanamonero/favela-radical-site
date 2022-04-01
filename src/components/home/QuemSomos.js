@@ -24,7 +24,7 @@ const QuemSomos = () => {
                   commodoPraesent sit amet quam non lacus semper posuere vitae
                   eget orci. Quisque consequat nisi nunc.{" "}
                 </p>
-                <Button variant="outline-light"className="home-button">
+                <Button variant="outline-light" size="lg" className="home-button">
                   VER MAIS
                 </Button>
               </Row>

@@ -8,7 +8,7 @@ const Doacoes = () => {
     <section className="container-doacoes">
       <Container>
         <Row className="col-doador">
-          <Col>
+          <Col id="text-doacoes">
             <h1>Lorem Item dolor</h1>
             <p>
               Aliquam nec cursus urna. Nam bibendum dictum urna eget imperdiet.
@@ -26,9 +26,9 @@ const Doacoes = () => {
             </p>
           </Col>
           <Col>
-            <img className="img-fluid" src={doacoes} alt="doacoes" />
+            <img className="img-fluid" id="img-doacoes" src={doacoes} alt="doacoes" />
             <Link>
-              <Button>
+              <Button variant="outline-light"className="doacoes-button">
                 VER MAIS 
               </Button>
             </Link>

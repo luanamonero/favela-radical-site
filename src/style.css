@@ -413,6 +413,8 @@ html {
 }
 
 /* Doações */
+/* Doações */
+
 .div-setas {
   height: 400px;
 }
@@ -435,8 +437,36 @@ html {
   width: 100% !important;
   background-color: #db5e1a !important;
   color: #E5E5E5;
+  padding: 2rem 2rem;
 }
 
+.doacoes-button {
+  margin-top: 15px;
+  width: 40%;
+  margin-left: 60%;
+}
+
+#text-doacoes {
+  padding: 2rem 1rem;
+}
+
+#text-doacoes h1 {
+  font-size: 4rem;
+}
+
+#text-doacoes p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+
+  letter-spacing: -0.015em;
+}
+
+#img-doacoes {
+  margin-top: 17% !important;
+}
 
 @media (max-width: 767px) {
   .imgSeta{
@@ -450,6 +480,15 @@ html {
   .col-doador {
     display: flex !important;
     flex-direction: column !important;
+  }
+
+  #img-doacoes {
+    margin-top: 5% !important;
+  }
+
+  #text-doacoes p {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 
