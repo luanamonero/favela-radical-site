@@ -362,3 +362,48 @@ html {
   align-items: center;
   letter-spacing: 0.1em;
 }
+
+.imgDiretrizes {
+  width: 50%;
+  position: absolute;
+  left: 0;
+}
+
+.border-danger {
+  margin-top: 10px;
+  border: 2px solid #c96731 !important;
+}
+
+.card-container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-top: 2% !important;
+}
+
+.card-container :nth-child(2) {
+  margin-top: 5% !important;
+}
+
+@media (max-width: 767px) {
+  .imgDiretrizes {
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+
+  .card-container {
+    position: absolute !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 80% !important;
+  }
+  
+  .card-container :nth-child(2) {
+    margin-top: 5% !important;
+  }
+
+}
