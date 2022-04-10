@@ -10,7 +10,7 @@ const Diretrizes = () => {
         </Col>
         <Col className="card-container">
           <Card
-           border="dark" style={{ width: '25rem' }}
+           border="dark"
           >
             <Card.Body>
               <Card.Title>Lorem ipsum dolor sit amet</Card.Title>
@@ -21,7 +21,7 @@ const Diretrizes = () => {
             </Card.Body>
           </Card>
           <Card
-           border="dark" style={{ width: '25rem' }}
+           border="dark"
           >
             <Card.Body>
               <Card.Title>Lorem ipsum dolor sit amet</Card.Title>

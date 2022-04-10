@@ -274,15 +274,16 @@ html {
     background: #db5e1a ;
     width: 100%;
     padding: auto;
-    height: 420px;
+    height: 600px;
+    padding: 10px;
   }
 
   .heading h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 80px;
+    line-height: 85px;
     letter-spacing: -0.015em;
   }
 
@@ -299,6 +300,13 @@ html {
     color: white;
   }
 
+  .heading button {
+    position: absolute !important;
+    margin-top: 450px !important;
+    width: 150px !important;
+    margin-left: 15%;
+  }
+
 }
 
 
@@ -306,15 +314,14 @@ html {
   #home {
     background: #db5e1a ;
     width: 100%;
-    padding: auto;
-    height: 600px;
+    height: 620px;
   }
 
   .heading h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 59px;
     letter-spacing: -0.015em;
   }
@@ -327,14 +334,13 @@ html {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    margin-top: 55px;
     letter-spacing: -0.01em;
     color: white;
   }
 
   .heading button {
     position: absolute !important;
-    margin-top: 380px !important;
+    margin-top: 350px !important;
     width: 150px !important;
     margin-left: 25%;
   }
@@ -362,12 +368,15 @@ html {
   font-weight: 800;
   font-size: 10vw;
   line-height: 12vw;
-
   display: flex;
   justify-content: right;
   align-items: center;
   letter-spacing: 0.1em;
 }
+
+/* Diretrizes */
+/* Diretrizes */
+
 
 .border-dark {
   margin-top: 10px;
@@ -392,9 +401,27 @@ html {
   position: absolute;
 }
 
+.ctd {
+  height: 500px !important;
+}
+
+@media (max-width: 1080px) {
+  .ctd {
+    margin-top: 60px !important;
+  }
+
+  .img-diretrizes {
+    width: 50%;
+    height: 350px;
+    position: absolute;
+    left: 0;
+  }
+}
+
 @media (max-width: 767px) {
   .img-diretrizes {
     width: 100%;
+    height: 50%;
     position: absolute;
     left: 0;
   }
@@ -405,7 +432,7 @@ html {
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
-    margin-top: 80% !important;
+    margin-top: 300px !important;
   }
   
   .card-container :nth-child(2) {
@@ -413,30 +440,11 @@ html {
   }
 }
 
-.ctd {
-  height: 450px !important;
-}
 
 /* Doações */
 /* Doações */
 
-.div-setas {
-  height: 400px;
-}
 
-.imgSeta {
-  position: absolute;
-  width: 25%;
-  height: 25%;
-  right: 0;
-  margin-top: -50px;
-}
-
-.imgSeta2 {
-  position: absolute;
-  margin-top: 10%;
-  width: 40%;
-}
 
 .imgSeta3 {
   position: absolute;
@@ -487,6 +495,38 @@ html {
   margin-top: 17% !important;
 }
 
+@media (max-width: 1080px) {
+
+  .container-doacoes {
+    padding: 1rem 1rem;
+    margin-top: -50px;
+  }
+
+  .col-doador {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .doacoes-button {
+    width: 50%;
+    margin-left: 45%;
+  }
+
+  #img-doacoes {
+    margin-top: 5% !important;
+  }
+
+  #text-doacoes h1 {
+    font-size: 3rem;
+  }
+
+  #text-doacoes p {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+  }
+} 
+
 @media (max-width: 767px) {
   .imgSeta{
     margin-top: 45%;
@@ -496,20 +536,35 @@ html {
     margin-top: 70%;
   }
 
+  .container-doacoes {
+    margin-top: 210px;
+    padding: 1rem 1rem;
+  }
+
   .col-doador {
     display: flex !important;
     flex-direction: column !important;
+  }
+
+  .doacoes-button {
+    width: 50%;
+    margin-left: 45%;
   }
 
   #img-doacoes {
     margin-top: 5% !important;
   }
 
-  #text-doacoes p {
-    font-size: 20px;
-    line-height: 30px;
+  #text-doacoes h1 {
+    font-size: 3rem;
   }
-}
+
+  #text-doacoes p {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+  }
+} 
 
 /* Atividades */
 /* Atividades */

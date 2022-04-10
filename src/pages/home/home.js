@@ -19,10 +19,6 @@ function Home() {
       <QuemSomos/>
       <Letter/>
       <Diretrizes/>
-      <div className="div-setas">
-        <img src={seta2} className="imgSeta" alt="enfeita seta grande"/>
-        <img src={seta1} className="imgSeta2" alt="enfeita seta pequena"/>  
-      </div>
       <Doacoes/>
       <section>
         <img src={seta3} className="imgSeta3" alt="enfeita seta grande"/>
