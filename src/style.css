@@ -228,7 +228,7 @@ html {
 
 #home {
   width: 100%;
-  height: 700px;
+  height: 800px;
   background-color: #db5e1a;
 }
 
@@ -239,7 +239,7 @@ html {
 
 .heading button{
   position: absolute !important;
-  margin-top: 46% !important;
+  margin-top: 58% !important;
   width: 150px !important;
   margin-left: 20%;
 } 
@@ -252,6 +252,7 @@ html {
   line-height: 130px;
   letter-spacing: -0.015em;
   color:rgb(250, 250, 250);
+  margin-top: 10%;
 }
 
 .heading p{
@@ -264,7 +265,6 @@ html {
   font-size: 25px;
   line-height: 40px;
   color:rgb(250, 250, 250);
-  /* or 160% */
 
   letter-spacing: -0.015em
 }
@@ -379,8 +379,9 @@ html {
 
 
 .border-dark {
-  margin-top: 10px;
-  border: 2px solid !important;
+  margin-top: 30px;
+  border: 3px solid !important;
+  margin-left: 40px;
 }
 
 .card-container {
@@ -419,6 +420,10 @@ html {
 }
 
 @media (max-width: 767px) {
+  .border-dark {
+    margin-left: 0px;
+  }
+
   .img-diretrizes {
     width: 100%;
     height: 50%;
@@ -432,7 +437,7 @@ html {
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
-    margin-top: 300px !important;
+    margin-top: 320px !important;
   }
   
   .card-container :nth-child(2) {
@@ -444,21 +449,6 @@ html {
 /* Doações */
 /* Doações */
 
-
-
-.imgSeta3 {
-  position: absolute;
-  width: 60%;
-  margin-top: -50px;
-  right: 0;
-}
-
-.imgSeta4 {
-  position: absolute;
-  width: 20%;
-  height: 20%;
-  left: -3%;
-}
 
 .container-doacoes {
   width: 100% !important;
@@ -569,15 +559,36 @@ html {
 /* Atividades */
 /* Atividades */
 
+.imgSeta3 {
+  position: absolute;
+  width: 60%;
+  margin-top: -60px;
+  right: 0;
+}
+
+.imgSeta4 {
+  position: absolute;
+  width: 20%;
+  height: 15%;
+  left: -5%;
+}
+
+.imgSeta5 {
+  position: absolute;
+  width: 20%;
+  height: 15%;
+  left:40px;
+}
+
 .title-atividades {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 150px;
-  line-height: 150px;
-  margin-top: 10%;
+  font-size: 110px;
+  line-height: 110px;
+  margin-top: 7%;
   letter-spacing: 0.03em;
-  text-align: center;
+  margin-left: 10%;
 }
 
 @media (max-width: 1080px) {
@@ -615,6 +626,7 @@ html {
 /* Atividades */
 
 .carrosel-atividades img{
+  margin-top: 150px;
   width: 100%;
   height: 300px;
 }

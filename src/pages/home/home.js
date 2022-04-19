@@ -22,7 +22,8 @@ function Home() {
       <section>
         <img src={seta3} className="imgSeta3" alt="enfeita seta grande"/>
         <h1 className="title-atividades">Atividades</h1>
-        <img src={seta4} className="imgSeta4" alt="enfeita seta pequena"/>  
+        <img src={seta4} className="imgSeta4" alt="enfeita seta pequena"/>
+        <img src={seta4} className="imgSeta5" alt="enfeita seta pequena"/>    
       </section>
       <CarrouselAtividades />
     </div>
