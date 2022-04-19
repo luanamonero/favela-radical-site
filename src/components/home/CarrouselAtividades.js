@@ -5,53 +5,34 @@ import "glider-js/glider.min.css";
 
 const CarrouselAtividades = () => {
   return (
-    <Glider
-      draggable={true}
-      scrollLock={true}
-      hasDots={true}
-      slidesToShow={5}
-    >
-      <div>
-        <img
-          alt=""
-          width="167"
-          height="167"
-          src="https://cdn.shopify.com/s/files/1/0354/2607/4668/files/Wine_Liquor_300x.png?v=1589486372"
-        />
-      </div>
-      <div>
-        <img
-          alt=""
-          width="167"
-          height="167"
-          src="https://cdn.shopify.com/s/files/1/0354/2607/4668/files/Wine_Liquor_300x.png?v=1589486372"
-        />
-      </div>
-      <div>
-        <img
-          alt=""
-          width="167"
-          height="167"
-          src="https://cdn.shopify.com/s/files/1/0354/2607/4668/files/Wine_Liquor_300x.png?v=1589486372"
-        />
-      </div>
-      <div>
-        <img
-          alt=""
-          width="167"
-          height="167"
-          src="https://cdn.shopify.com/s/files/1/0354/2607/4668/files/Wine_Liquor_300x.png?v=1589486372"
-        />
-      </div>
-      <div>
-        <img
-          alt=""
-          width="167"
-          height="167"
-          src="https://cdn.shopify.com/s/files/1/0354/2607/4668/files/Wine_Liquor_300x.png?v=1589486372"
-        />
-      </div>
-    </Glider>
+    <section className="carrosel-atividades">
+      <Glider
+        draggable={true}
+        scrollLock={true}
+        hasDots={true}
+        slidesToShow={3}
+        slidesToScroll={6}
+      >
+        <div>
+          <img alt="" src={surf} />
+        </div>
+        <div>
+          <img alt="" src={surf} />
+        </div>
+        <div>
+          <img alt="" src={surf} />
+        </div>{" "}
+        <div>
+          <img alt="" src={surf} />
+        </div>{" "}
+        <div>
+          <img alt="" src={surf} />
+        </div>
+        <div>
+          <img alt="" src={surf} />
+        </div>
+      </Glider>
+    </section>
   );
 };
 

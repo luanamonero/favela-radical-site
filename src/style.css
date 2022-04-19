@@ -245,7 +245,7 @@ html {
 } 
 
 .heading h1{
-  font-family: 'Roboto';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 130px;
@@ -258,7 +258,7 @@ html {
   margin-top: 20px;
   width: 500px;
   height: 400px;
-  font-family: 'Roboto';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -279,7 +279,7 @@ html {
   }
 
   .heading h1 {
-    font-family: 'Roboto';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
@@ -290,7 +290,7 @@ html {
   .heading p{
     width: 450px;
     height: 250px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -318,7 +318,7 @@ html {
   }
 
   .heading h1 {
-    font-family: 'Roboto';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -329,7 +329,7 @@ html {
   .heading p{
     width: 450px;
     height: 250px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -363,7 +363,7 @@ html {
 
 .letter h1{
   color: #E5E5E5;
-  font-family: 'Roboto';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 10vw;
@@ -482,7 +482,7 @@ html {
 }
 
 #text-doacoes p {
-  font-family: 'Roboto';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -570,7 +570,7 @@ html {
 /* Atividades */
 
 .title-atividades {
-  font-family: 'Roboto';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 150px;
@@ -602,7 +602,7 @@ html {
   }
 
   .title-atividades {
-    font-family: 'Roboto';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 65px;
@@ -611,4 +611,10 @@ html {
   }
 }
 
+/* Atividades */
+/* Atividades */
 
+.carrosel-atividades img{
+  width: 100%;
+  height: 300px;
+}
