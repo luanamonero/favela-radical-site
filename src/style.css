@@ -591,11 +591,30 @@ html {
   margin-left: 10%;
 }
 
+.carrosel-atividades img{
+  margin-top: 150px;
+  width: 100%;
+  height: 300px;
+}
+
+
 @media (max-width: 1080px) {
   .imgSeta4{
     width: 15%;
     height: 15%;
     left: 0;
+  }
+
+  .imgSeta5{
+    width: 15%;
+    height: 15%;
+    left: 0;
+  }
+
+  .carrosel-atividades img{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
   }
 }
 
@@ -606,7 +625,14 @@ html {
   }
 
   .imgSeta4{
-    margin-top: -50px;
+    margin-top: -60px;
+    width: 15%;
+    height: 15%;
+    left: 0;
+  }
+
+  .imgSeta5{
+    margin-top: -60px;
     width: 15%;
     height: 15%;
     left: 0;
@@ -615,18 +641,21 @@ html {
   .title-atividades {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 65px;
+    font-weight: 600;
+    font-size: 50px;
     margin-top: 10%;
     padding: 1px 1px;
   }
+
+  .carrosel-atividades img{
+    margin-top: 40px;
+    width: 100%;
+    height: 150px;
+  }
+
+  .carrosel-atividades h3{
+    margin-top: -50px;
+    text-align: center;
+  }
 }
 
-/* Atividades */
-/* Atividades */
-
-.carrosel-atividades img{
-  margin-top: 150px;
-  width: 100%;
-  height: 300px;
-}

@@ -15,21 +15,27 @@ const CarrouselAtividades = () => {
       >
         <div>
           <img alt="" src={surf} />
+          <h3>Surf</h3>
         </div>
         <div>
           <img alt="" src={surf} />
+          <h3>Natação</h3>
         </div>
         <div>
           <img alt="" src={surf} />
+          <h3>Natação</h3>
         </div>{" "}
         <div>
           <img alt="" src={surf} />
+          <h3>Natação</h3>
         </div>{" "}
         <div>
           <img alt="" src={surf} />
+          <h3>Natação</h3>
         </div>
         <div>
           <img alt="" src={surf} />
+          <h3>Natação</h3>
         </div>
       </Glider>
     </section>
