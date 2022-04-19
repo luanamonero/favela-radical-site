@@ -1,8 +1,8 @@
 import { Carousel } from "react-bootstrap";
-import cover from "../assets/cover.jpg";
-import surf from "../assets/surf.jpg";
-import escalada from "../assets/escalada.jpg";
-import robotica from "../assets/robotica.jpg";
+import cover from "../../assets/cover.jpg";
+import surf from "../../assets/surf.jpg";
+import escalada from "../../assets/escalada.jpg";
+import robotica from "../../assets/robotica.jpg";
 
 const CarouselHeader = () => {
   return (

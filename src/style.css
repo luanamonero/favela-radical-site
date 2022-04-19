@@ -455,8 +455,8 @@ html {
 
 .imgSeta4 {
   position: absolute;
-  width: 25%;
-  height: 25%;
+  width: 20%;
+  height: 20%;
   left: -3%;
 }
 
@@ -580,6 +580,14 @@ html {
   text-align: center;
 }
 
+@media (max-width: 1080px) {
+  .imgSeta4{
+    width: 15%;
+    height: 15%;
+    left: 0;
+  }
+}
+
 @media (max-width: 767px) {
 
   .imgSeta3{
@@ -587,17 +595,20 @@ html {
   }
 
   .imgSeta4{
-    margin-top: 0;
-    width: 20%;
-    height: 20%;
+    margin-top: -50px;
+    width: 15%;
+    height: 15%;
     left: 0;
   }
 
   .title-atividades {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
+    font-weight: 500;
+    font-size: 65px;
     margin-top: 10%;
+    padding: 1px 1px;
   }
 }
+
+
