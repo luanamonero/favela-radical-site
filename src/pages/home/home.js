@@ -7,7 +7,10 @@ import Letter from '../../components/home/Letter';
 import QuemSomos from '../../components/home/QuemSomos';
 import seta3 from "../../assets/ENFEITESETA.svg";
 import seta4 from "../../assets/SETA3.svg";
+import footer from "../../assets/footer.svg";
+import seta1 from '../../assets/ENFEITESETA_01.svg'
 import CarrouselAtividades from '../../components/home/CarrouselAtividades';
+
 
 function Home() {
   return (
@@ -16,7 +19,7 @@ function Home() {
         <CarouselHeader/>
       </Header>
       <QuemSomos/>
-      <Letter/>
+      <Letter><img className="letterImg" src={seta1} alt="enfeite de seta" /></Letter>
       <Diretrizes/>
       <Doacoes/>
       <section>
@@ -26,6 +29,8 @@ function Home() {
         <img src={seta4} className="imgSeta5" alt="enfeita seta pequena"/>    
       </section>
       <CarrouselAtividades />
+      <Letter/>
+      <img src={footer} className="img-footer" alt="foto da favela do turano"/>
     </div>
   );
 }
