@@ -5,12 +5,11 @@ import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
-  AiFillPhone,
-  AiOutlineUser,
-  AiFillDribbbleCircle,
-  AiFillPicture,
-  AiFillDollarCircle,
+  AiOutlineFacebook,
+  AiOutlineTwitter,
+  AiOutlineInstagram,
 } from "react-icons/ai";
+
 import logo from '../assets/logo2.png';
 
 
@@ -47,42 +46,24 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link as={Link} to="/sobre"  onClick={() => updateExpanded(false)}>
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Sobre Nós
+                <AiOutlineInstagram style={{ marginBottom: "2px" }} /> Instagram
               </Nav.Link>
             </Nav.Item>
             
             <Nav.Item>
               <Nav.Link as={Link} to="/atividades"  onClick={() => updateExpanded(false)}>
-                <AiFillDribbbleCircle
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Atividades
+                <AiOutlineTwitter
+                  style={{ marginBottom: "2px", marginRight: "4px" }} />
+                Twitter
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link as={Link} to="/project"  onClick={() => updateExpanded(false)}>
-                <AiFillPicture
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Galeria
+                <AiOutlineFacebook
+                  style={{ marginBottom: "2px", marginRight: "4px" }}
+                />Facebook
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link as={Link} to="/project"  onClick={() => updateExpanded(false)}>
-                <AiFillDollarCircle
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Doações
-              </Nav.Link>
-            </Nav.Item>
-              <Nav.Item>
-                <Nav.Link as={Link} to="/project"  onClick={() => updateExpanded(false)}>
-                  <AiFillPhone
-                    style={{ marginBottom: "2px" }}
-                  />{" "}
-                  Contato
-                </Nav.Link>
-              </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

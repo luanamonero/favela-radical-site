@@ -13,10 +13,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Desenvolvido por Luana Moneró</h3>
+          <h3>Desenvolvido por Favela Radical</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} LMB</h3>
+          <h3>Copyright © {year} Favela Radical</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -47,15 +47,6 @@ function Footer() {
           </ul>
         </Col>
       </Row>
-      <h1 style={{ color: "white", textAlign: "center" }}>
-        Design Template by{" "}
-        <a
-          href="https://github.com/soumyajit4419/Portfolio"
-          style={{ color: "white" }}
-        >
-          Soumyajit Behera
-        </a>{" "}
-      </h1>
     </Container>
   );
 }
