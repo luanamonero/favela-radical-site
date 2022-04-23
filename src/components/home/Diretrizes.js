@@ -3,10 +3,10 @@ import surf from "../../assets/surf.jpg";
 
 const Diretrizes = () => {
   return (
-    <Container className="ctd">
-      <Row>
+    <Container>
+      <Row className="ctd">
         <Col>
-          <img className="img-diretrizes" src={surf} alt="aula de surf" />
+          <img className="img-fluid" src={surf} alt="aula de surf" />
         </Col>
         <Col className="card-container">
           <Card

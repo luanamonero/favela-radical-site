@@ -1,4 +1,5 @@
-import surf from "../../assets/surf.jpg";
+/* import surf from "../../assets/surf.jpg"; */
+import surf from "../../assets/atividades.png";
 import * as React from "react";
 import Glider from "react-glider";
 import "glider-js/glider.min.css";
