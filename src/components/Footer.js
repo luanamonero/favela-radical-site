@@ -1,10 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import logo from '../assets/logo2.svg';
 
 function Footer() {
   let date = new Date();
@@ -13,35 +9,40 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Desenvolvido por Favela Radical</h3>
+          <img src={logo} className="logo" alt="logo" />
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Favela Radical</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+          <li className="social-icons">
+              <h3>Acompanhe nosso trabalho</h3>
+            </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/sagar-mude"
+                className="social-text"
+                href="https://www.instagram.com/favelaradical/"
                 style={{ color: "white" }}
-              >
-                <FaLinkedinIn />
+              > INSTAGRAM
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://github.com/luanamonero"
+                href="https://pt-br.facebook.com/FRfavelaradical/"
                 style={{ color: "white" }}
+                className="social-text"
               >
-                <AiFillGithub />
+                FACEBOOK
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/luanamb2/"
+                href="https://twitter.com/FavelaRadical/"
                 style={{ color: "white" }}
+                className="social-text"
               >
-                <AiFillInstagram />
+                TWITTER
               </a>
             </li>
           </ul>

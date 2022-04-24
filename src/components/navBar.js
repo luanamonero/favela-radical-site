@@ -10,21 +10,16 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 
-import logo from '../assets/logo2.png';
-
+import logo from "../assets/logo2.png";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
 
   return (
-    <Navbar 
-    expanded={expand}
-    fixed="top"
-    expand="md"
-    className="sticky">
+    <Navbar expanded={expand} fixed="top" expand="md" className="sticky">
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="logo" alt="logo"/>
+          <img src={logo} className="logo" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -45,23 +40,36 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/sobre"  onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                href="https://www.instagram.com/favelaradical/"
+                target="_blank"
+                onClick={() => updateExpanded(false)}
+              >
                 <AiOutlineInstagram style={{ marginBottom: "2px" }} /> Instagram
               </Nav.Link>
             </Nav.Item>
-            
             <Nav.Item>
-              <Nav.Link as={Link} to="/atividades"  onClick={() => updateExpanded(false)}>
-                <AiOutlineTwitter
-                  style={{ marginBottom: "2px", marginRight: "4px" }} />
-                Twitter
+              <Nav.Link
+                href="https://pt-br.facebook.com/FRfavelaradical/"
+                target="_blank"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFacebook
+                  style={{ marginBottom: "2px", marginRight: "4px" }}
+                />
+                Facebook
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link as={Link} to="/project"  onClick={() => updateExpanded(false)}>
-                <AiOutlineFacebook
+              <Nav.Link
+                href="https://twitter.com/FavelaRadical"
+                target="_blank"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineTwitter
                   style={{ marginBottom: "2px", marginRight: "4px" }}
-                />Facebook
+                />
+                Twitter
               </Nav.Link>
             </Nav.Item>
           </Nav>
