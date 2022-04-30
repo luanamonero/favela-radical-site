@@ -226,125 +226,94 @@ html {
 /* Quem Somos */
 
 #home {
-  width: 100%;
-  height: 800px;
   background-color: #db5e1a;
+  width: 100%;
 }
 
 .heading {
-  padding-top: 30px;
-  width: 100%;
-} 
-
-.heading button{
-  position: absolute !important;
-  margin-top: 58% !important;
-  width: 150px !important;
-  margin-left: 20%;
-} 
+  contain: content;
+  color:rgb(250, 250, 250);
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 20%;
+  margin-bottom: 20px;
+  padding: 30px 15px;
+}
 
 .heading h1{
   font-family: 'Montserrat', sans-serif;
-  font-style: normal;
+  font-size: 8rem;
   font-weight: 600;
-  font-size: 130px;
-  line-height: 130px;
+  grid-column: 1;
+  grid-row: 1;
   letter-spacing: -0.015em;
-  color:rgb(250, 250, 250);
-  margin-top: 10%;
+  line-height: 130px;
+  margin-top: 2rem;
 }
 
-.heading p{
-  margin-top: 20px;
-  width: 500px;
-  height: 400px;
+.heading p {
   font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 25px;
+  grid-column: 2;
+  grid-row: 1/3;
+  letter-spacing: -0.015em;
   line-height: 40px;
-  color:rgb(250, 250, 250);
+  margin-top: 2rem;
+  max-width: 85%;
+}
 
-  letter-spacing: -0.015em
+.heading button {
+  grid-column: 1;
+  margin: 2rem auto 0.5rem;
+  padding: 0.5rem 2rem;
 }
 
 @media (max-width: 1080px) {
   #home {
-    background: #db5e1a ;
-    width: 100%;
-    padding: auto;
-    height: 600px;
     padding: 10px;
   }
 
   .heading h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-size: 6rem;
     font-weight: 700;
-    font-size: 80px;
-    line-height: 85px;
     letter-spacing: -0.015em;
+    line-height: 85px;
   }
 
-  .heading p{
-    width: 450px;
-    height: 250px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+  .heading p {
     font-size: 20px;
+    letter-spacing: -0.01em;
     line-height: 22px;
     margin-top: 15px;
-    letter-spacing: -0.01em;
-    color: white;
   }
-
-  .heading button {
-    position: absolute !important;
-    margin-top: 450px !important;
-    width: 150px !important;
-    margin-left: 15%;
-  }
-
 }
-
 
 @media (max-width: 767px) {
   #home {
     background: #db5e1a ;
-    width: 100%;
-    height: 620px;
+  }
+
+  .heading {
+    display: flex;
+    flex-flow: column wrap;
   }
 
   .heading h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
+    font-size: 3rem;
     line-height: 59px;
-    letter-spacing: -0.015em;
+    margin: auto;
+    max-width: 85%;
   }
 
-  .heading p{
-    width: 450px;
-    height: 250px;
+  .heading p {
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: calc(1rem + 1vmin);
     line-height: 19px;
-    letter-spacing: -0.01em;
-    color: white;
-  }
-
-  .heading button {
-    position: absolute !important;
-    margin-top: 350px !important;
-    width: 150px !important;
-    margin-left: 25%;
+    margin: auto;
   }
 }
-
 
 /* Letter */
 
