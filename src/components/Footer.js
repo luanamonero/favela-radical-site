@@ -36,15 +36,7 @@ function Footer() {
                 FACEBOOK
               </a>
             </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/FavelaRadical/"
-                style={{ color: "white" }}
-                className="social-text"
-              >
-                TWITTER
-              </a>
-            </li>
+
           </ul>
         </Col>
       </Row>

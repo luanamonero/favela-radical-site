@@ -27,7 +27,7 @@ const Doacoes = () => {
           </Col>
           <Col>
             <img className="img-fluid" id="img-doacoes" src={doacoes} alt="doacoes" />
-            <Link>
+            <Link to="/doacoes">
               <Button variant="outline-light"className="doacoes-button">
                 VER MAIS 
               </Button>

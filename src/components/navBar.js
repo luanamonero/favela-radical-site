@@ -10,7 +10,7 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 
-import logo from "../assets/logo2.png";
+import logofavela from "../assets/logofavela.jpg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -19,7 +19,7 @@ function NavBar() {
     <Navbar expanded={expand} fixed="top" expand="md" className="sticky">
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="logo" alt="logo" />
+          <img src={logofavela} className="logo" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
