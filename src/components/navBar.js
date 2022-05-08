@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineFacebook,
-  AiOutlineTwitter,
   AiOutlineInstagram,
+  AiOutlineLinkedin,
 } from "react-icons/ai";
 
-import logofavela from "../assets/logofavela.jpg";
+import logo from "../assets/logo2.png";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -19,7 +19,7 @@ function NavBar() {
     <Navbar expanded={expand} fixed="top" expand="md" className="sticky">
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logofavela} className="logo" alt="logo" />
+          <img src={logo} className="logo" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -62,14 +62,14 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                href="https://twitter.com/FavelaRadical"
+                href="https://br.linkedin.com/company/favela-radical"
                 target="_blank"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineTwitter
+                <AiOutlineLinkedin
                   style={{ marginBottom: "2px", marginRight: "4px" }}
                 />
-                Twitter
+                LinkedIn
               </Nav.Link>
             </Nav.Item>
           </Nav>
