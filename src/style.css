@@ -546,18 +546,12 @@ html {
   margin-left: 10%;
 }
 
-.carrosel-atividades img{
-  margin-top: 150px;
-  width: 100%;
-}
-
-.carrosel-atividades h3{
-  margin-top: -50px;
-  text-align: center;
-}
-
 
 @media (max-width: 1080px) {
+  .imgSeta3 {
+    margin-top: -40px;
+  }
+
   .imgSeta4{
     width: 15%;
     height: 15%;
@@ -568,12 +562,6 @@ html {
     width: 15%;
     height: 15%;
     left: 0;
-  }
-
-  .carrosel-atividades img{
-    margin-top: 50px;
-    width: 100%;
-    height: 300px;
   }
 }
 
@@ -611,90 +599,6 @@ html {
   }
 }
 
-.img-footer {
-  background-image: url('./assets/footer.svg');
-  background-size: cover;
-  width: 100%;
-  margin-top: -370px !important;
-}
-
-
-@media (max-width: 1080px) {
-  .img-footer {
-    margin-top: 10px !important;
-    width: 100%;
-  }
-}
-
-/* --------- */
-/* Footer */
-/* --------- */
-.footer {
-  background-color: #181a27;
-  bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
-  
-}
-
-.footer-copywright {
-  text-align: center !important;
-}
-
-.footer-body {
-  text-align: center !important;
-}
-
-.footer h3 {
-  font-size: 1em;
-  color: #db5e1a !important;
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-}
-
-.footer h1 {
-  font-size: 0.7em;
-  color: #db5e1a !important;
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-}
-.footer-icons {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-  padding: 0 !important;
-  list-style: none !important;
-}
-
-.social-text  {
-  text-decoration: none;
-}
-
-.logo-footer {
-  width: 100px;  
-}
-
-@media (max-width: 1080px) {
-
-  .footer-copywright {
-    text-align: center !important;
-  }
-
-  .footer-body {
-    text-align: center !important;
-  }
-}
-
-@media (max-width: 767px) {
-
-  .footer-copywright {
-    text-align: center !important;
-  }
-
-  .footer-body {
-    text-align: center !important;
-    
-  }
-}
 
 .img-pix {
   width: 68%;
@@ -801,9 +705,138 @@ html {
     font-size: 20px;
     line-height: 25px;
   }
+}
+
+@media (max-width: 1080px) {  
+  .div-atividades {
+    margin-top: 100px !important;
+    text-align: center !important;
+  }
+  .div-atividades2 {
+    text-align: center !important;
+    margin-top: 100px !important;
+  }
+}
+
+@media (max-width: 767px) {  
+  .div-atividades {
+    width: 300px !important;
+    height: 300px !important;
+    text-align: center !important;
+    margin-left: 10px !important;
+  }
+
+  .div-a {
+    margin-top: 40px !important;
+  }
+
+  .div-atividades2 {
+    width: 300px !important;
+    height: 400px !important;
+    text-align: center !important;
+    margin-left: 10px !important;
+  }
+
+  .div-atividades img {
+    display: none;
+  }
+
+  .div-atividades2 img {
+    display: none;
+  }
+}
+
+
+/* --------- */
+/* Footer */
+/* --------- */
+
+.img-footer {
+  background-image: url('./assets/footer.svg');
+  background-size: cover;
+  width: 100%;
+  margin-top: -200px !important;
+}
+
+
+@media (max-width: 1080px) {
+  .img-footer {
+    margin-top: -100px !important;
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: #181a27;
+  bottom: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important ;
   
 }
 
-.card-atividades {
-  margin-top: 150px;
+.footer-copywright {
+  text-align: center !important;
+}
+
+.footer-body {
+  text-align: center !important;
+}
+
+.footer h3 {
+  font-size: 1em;
+  color: #db5e1a !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.footer h1 {
+  font-size: 0.7em;
+  color: #db5e1a !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+.footer-icons {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+.social-text  {
+  text-decoration: none;
+}
+
+.logo-footer {
+  width: 300px;
+}
+
+@media (max-width: 1080px) {
+
+  .footer-copywright {
+    text-align: center !important;
+  }
+
+  .footer-body {
+    text-align: center !important;
+  }
+
+  .logo-footer {
+    width: 220px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .footer-copywright {
+    text-align: center !important;
+  }
+
+  .logo-footer {
+    width: 200px;
+  }
+
+  .footer-body {
+    text-align: center !important;
+    
+  }
 }
