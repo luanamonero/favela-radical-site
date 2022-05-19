@@ -672,6 +672,10 @@ html {
   
 }
 
+.container-atividades {
+  margin-top: 150px !important;
+}
+
 @media (max-width: 767px) {  
   .img-pix {
     width: 100%;

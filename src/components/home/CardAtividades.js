@@ -10,7 +10,7 @@ import image1 from "../../assets/surf.jpg";
 
 export default function CardAtividades() {
   return (
-    <Container className="div-atividades">
+    <Container className="container-atividades">
       <Box sx={{ width: "100%" }}>
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
           <Grid item xs={4}>
