@@ -6,11 +6,6 @@ html {
   --imp-text-color: #db5e1a;
 }
 
-
-.body {
-  background-image: url("./assets/BACKGROUND.svg") !important;
-}
-
 .container {
   width: 100%;
   height: 50%;
@@ -122,8 +117,7 @@ html {
 
 .logo {
   height: 4em !important;
-  width: 8em !important;
-  padding: 4px;
+  width: 5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -133,7 +127,7 @@ html {
 @media (max-width: 767px) {
   .logo {
     height: 3em !important;
-    width: 5em !important;
+    width: 4em !important;
   }
 
   .nav-link {
@@ -288,6 +282,10 @@ html {
     line-height: 22px;
     margin-top: 15px;
   }
+}
+
+.btn-quem {
+  margin-top: 10px;
 }
 
 @media (max-width: 767px) {
@@ -804,4 +802,8 @@ html {
     line-height: 25px;
   }
   
+}
+
+.card-atividades {
+  margin-top: 150px;
 }

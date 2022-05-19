@@ -9,9 +9,8 @@ import seta3 from "../../assets/ENFEITESETA.svg";
 import seta4 from "../../assets/SETA3.svg";
 import footer from "../../assets/footer.svg";
 import seta1 from '../../assets/ENFEITESETA_01.svg'
-import CarrouselAtividades from '../../components/home/CarrouselAtividades';
 import Footer from '../../components/Footer';
-
+import CardAtividades from '../../components/home/CardAtividades';
 
 function Home() {
   return (
@@ -29,7 +28,7 @@ function Home() {
         <img src={seta4} className="imgSeta4" alt="enfeita seta pequena"/>
         <img src={seta4} className="imgSeta5" alt="enfeita seta pequena"/>    
       </section>
-      <CarrouselAtividades />
+      <CardAtividades/>
       <img src={footer} className="img-footer" alt="foto da favela do turano"/>
       <Footer/>
     </>
