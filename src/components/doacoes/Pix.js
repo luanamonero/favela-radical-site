@@ -1,37 +1,53 @@
 import React from "react";
-import { Row, Col, Card, ListGroup, ListGroupItem, Container, Button } from "react-bootstrap";
 import pix1 from "../../assets/pix1.JPG";
 import codigo from "../../assets/codigo.jpeg";
-import { Link } from "react-router-dom";
+import {
+  Card,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+  Container,
+  Grid,
+  Typography,
+} from "@mui/material";
 
 function Pix() {
   return (
-    <Container>
-      <Row>
-        <Col sm={8}>
+    <Container className="container-pix">
+      <Grid container spacing={6}>
+        <Grid item xs={8}>
           <img src={pix1} className="img-pix" alt="logo" />
           <h3 className="title-pix">SEJA UM PARCEIRO</h3>
           <p className="p-pix">Apoiei nosso projeto!</p>
-        </Col>
-        <Col className="card-pix" sm={2}>
-          <Card style={{ width: "23rem", alignItems: "center", marginTop: "30%", marginLeft: "30%"}}>
-            <Card.Img variant="top" src={codigo} />
-            <Card.Body>
-              <Card.Title>PIX PARA DOAÇÃO</Card.Title>
-            </Card.Body>
-            <ListGroup className="list-group-flush">
-              <ListGroupItem>CNPJ: 39.421.031/0001-51</ListGroupItem>
-              <ListGroupItem>Instituto Favela Radical</ListGroupItem>
-              <ListGroupItem>Banco santander</ListGroupItem>
-            </ListGroup>
-            <Link to="/">
-              <Button size="md" style={{ marginTop: "5px", marginBottom: "5px"}}>
-                VOLTAR
-              </Button>
-            </Link>
+        </Grid>
+        <Grid item xs={4}>
+          <Card className="card-pix">
+            <CardActionArea>
+              <CardMedia
+                className="card-img-top"
+                component="img"
+                height="250"
+                image={codigo}
+                alt="qr code"
+              />
+              <CardContent style={{ marginTop: "10px", textAlign: "center" }} >
+                <Typography gutterBottom variant="h5" component="div">
+                  PIX PARA DOAÇÃO
+                </Typography>
+                <Typography gutterBottom component="div">
+                  PCNPJ: 39.421.031/0001-51
+                </Typography>
+                <Typography gutterBottom component="div">
+                  Instituto Favela Radical
+                </Typography>
+                <Typography gutterBottom component="div">
+                  Banco santander
+                </Typography>
+              </CardContent>
+            </CardActionArea>
           </Card>
-        </Col>
-      </Row>
+        </Grid>
+      </Grid>
     </Container>
   );
 }
