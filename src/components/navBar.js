@@ -8,6 +8,7 @@ import {
   AiOutlineFacebook,
   AiOutlineInstagram,
   AiOutlineLinkedin,
+  AiOutlineSolution
 } from "react-icons/ai";
 
 import logo from "../assets/logo2.png";
@@ -70,6 +71,18 @@ function NavBar() {
                   style={{ marginBottom: "2px", marginRight: "4px" }}
                 />
                 LinkedIn
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                href="https://forms.gle/jx2u5z86LSK9bKLx5"
+                target="_blank"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineSolution
+                  style={{ marginBottom: "2px", marginRight: "4px" }}
+                />
+                Trabalhe conosco
               </Nav.Link>
             </Nav.Item>
           </Nav>

@@ -7,27 +7,27 @@ import robotica from "../../assets/robotica.jpg";
 const CarouselHeader = () => {
   return (
     <Carousel>
-      <Carousel.Item>
+      <Carousel.Item interval={600}>
         <img src={cover} className="d-block w-100" alt="primeiro slide" />
         <Carousel.Caption>
           <h3>Skate</h3>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={500}>
         <img className="d-block w-100" src={surf} alt="Second slide" />
 
         <Carousel.Caption>
           <h3>Surf</h3>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item >
         <img className="d-block w-100" src={robotica} alt="Third slide" />
 
         <Carousel.Caption>
           <h3>Robótica</h3>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item >
         <img className="d-block w-100" src={escalada} alt="Third slide" />
 
         <Carousel.Caption>

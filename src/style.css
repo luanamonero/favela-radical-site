@@ -514,6 +514,10 @@ html {
 /* Atividades */
 /* Atividades */
 
+.container-atividades {
+  margin-top: 120px !important;
+}
+
 .imgSeta3 {
   position: absolute;
   width: 60%;
@@ -599,7 +603,6 @@ html {
   }
 }
 
-
 .img-pix {
   width: 68%;
   height: 650px;
@@ -672,9 +675,6 @@ html {
   
 }
 
-.container-atividades {
-  margin-top: 150px !important;
-}
 
 @media (max-width: 767px) {  
   .img-pix {
@@ -711,44 +711,6 @@ html {
   }
 }
 
-@media (max-width: 1080px) {  
-  .div-atividades {
-    margin-top: 100px !important;
-    text-align: center !important;
-  }
-  .div-atividades2 {
-    text-align: center !important;
-    margin-top: 100px !important;
-  }
-}
-
-@media (max-width: 767px) {  
-  .div-atividades {
-    width: 300px !important;
-    height: 300px !important;
-    text-align: center !important;
-    margin-left: 10px !important;
-  }
-
-  .div-a {
-    margin-top: 40px !important;
-  }
-
-  .div-atividades2 {
-    width: 300px !important;
-    height: 400px !important;
-    text-align: center !important;
-    margin-left: 10px !important;
-  }
-
-  .div-atividades img {
-    display: none;
-  }
-
-  .div-atividades2 img {
-    display: none;
-  }
-}
 
 
 /* --------- */
@@ -786,12 +748,12 @@ html {
   text-align: center !important;
 }
 
-.footer h3 {
+.footer h3,a {
   font-size: 1em;
   color: #db5e1a !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
-}
+} 
 
 .footer h1 {
   font-size: 0.7em;
@@ -843,4 +805,90 @@ html {
     text-align: center !important;
     
   }
+}
+
+
+.card-containar {
+  position: relative;
+}
+.cards {
+  height: 500px;
+  width: 300px;
+  transition: 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+.front {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 10px;
+  background-image: url(https://wallpapercave.com/wp/wp4279376.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(22, 14, 14, 0.459);
+  background-blend-mode:overlay;
+}
+.front h1 {
+  transform: translateZ(60px);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  color: whitesmoke;
+  letter-spacing: 3px;
+}
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background:linear-gradient(100deg, rgba(2, 2, 2, 0.432), rgb(0, 0, 0));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.back h2 {
+  transform: translateZ(-60px) rotateY(-180deg);
+  margin-bottom: 40px;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.back p {
+  transform: translateZ(-30px) rotateY(-180deg);
+  font-size: 18px;
+  margin: 30px;
+  text-align: justify;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+.back a {
+  transform: translateZ(-40px) rotateY(-180deg);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  letter-spacing: -1px;
+  position: absolute;
+  bottom: 10px;
+  transition: 0.5s;
+}
+.back a:hover {
+  font-size: 22px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.card-containar:hover .cards {
+  transform: rotateY(180deg);
 }
