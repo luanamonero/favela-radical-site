@@ -1,5 +1,4 @@
 import React from 'react';
-import CarouselHeader from '../../components/home/Carrousel';
 import Header from '../../components/Header';
 import Diretrizes from '../../components/home/Diretrizes';
 import Doacoes from '../../components/home/Doacoes';
@@ -11,12 +10,13 @@ import footer from "../../assets/footer.svg";
 import seta1 from '../../assets/ENFEITESETA_01.svg'
 import Footer from '../../components/Footer';
 import CardAtividades from '../../components/home/CardAtividades';
+import robotica from '../../assets/robotica.jpg'
 
 function Home() {
   return (
     <>
       <Header>
-        <CarouselHeader/>
+        <img src={robotica} alt="aula de robotica" style={{ height: "600px", width: "100%", top: '100px'}}/>
       </Header>
       <QuemSomos/>
       <Letter><img className="letterImg" src={seta1} alt="enfeite de seta" /></Letter>
