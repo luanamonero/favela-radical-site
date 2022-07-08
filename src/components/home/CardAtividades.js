@@ -19,7 +19,7 @@ const CardAtividades = () => {
         >
           {activity.map((item) => (
             <Grid item xs={4}>
-              <Card sx={{ height: 500, width: 380 }}>
+              <Card sx={{ height: 500 }}>
                 <CardActionArea>
                   <CardMedia
                     component="img"

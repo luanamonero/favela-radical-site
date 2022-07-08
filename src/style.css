@@ -100,6 +100,10 @@ html {
   opacity: 0.9 !important;
 }
 
+.header-container {
+  margin-top: 50px;
+}
+
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;
@@ -116,8 +120,8 @@ html {
 }
 
 .logo {
-  height: 4em !important;
-  width: 5em !important;
+  height: 3em !important;
+  width: 4em !important;
 }
 
 .navbar-nav .nav-link {
@@ -127,7 +131,7 @@ html {
 @media (max-width: 767px) {
   .logo {
     height: 3em !important;
-    width: 4em !important;
+    width: 3em !important;
   }
 
   .nav-link {
@@ -623,7 +627,7 @@ html {
   line-height: 55px;
   letter-spacing: -0.015em;
   position: absolute;
-  top: 5%;
+  top: 20%;
   left: 10px;
   color: #181a27;
 }
@@ -634,7 +638,7 @@ html {
   font-style: normal;
   letter-spacing: -0.015em;
   position: absolute;
-  top: 23%;
+  top: 38%;
   left: 10px;
   color: #db5e1a;
   font-weight: 600;
@@ -683,6 +687,9 @@ html {
   
 }
 
+.container-pix {
+  margin-top: 15px;
+}
 
 @media (max-width: 767px) {  
   .img-pix {
@@ -737,13 +744,13 @@ html {
   background-image: url('./assets/footer.svg');
   background-size: cover;
   width: 100%;
-  margin-top: -200px !important;
+  margin-top: -250px !important;
 }
 
 
 @media (max-width: 1080px) {
   .img-footer {
-    margin-top: -100px !important;
+    margin-top: -40px !important;
     width: 100%;
   }
 }
