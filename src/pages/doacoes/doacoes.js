@@ -1,12 +1,12 @@
-import React from 'react';
-import Pix from '../../components/doacoes/Pix';
-import Header from '../../components/Header';
+import React from "react";
+import Pix from "../../components/doacoes/Pix";
+import NavBar from "../../components/navBar";
 
 function PagePix() {
   return (
     <>
-      <Header/>
-      <Pix/>
+      <NavBar />
+      <Pix />
     </>
   );
 }

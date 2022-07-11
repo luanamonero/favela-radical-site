@@ -35,7 +35,7 @@ function Pix() {
                   PIX PARA DOAÇÃO
                 </Typography>
                 <Typography gutterBottom component="div">
-                  PCNPJ: 39.421.031/0001-51
+                  CNPJ: 39.421.031/0001-51
                 </Typography>
                 <Typography gutterBottom component="div">
                   Instituto Favela Radical
